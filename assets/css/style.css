@@ -1,0 +1,133 @@
+/* body tag */
+
+body {
+    text-align: center;
+}
+
+/*end of body tag */
+
+/* popular-recipies root div */
+
+#popular-recipies {
+    padding: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* the search bar */
+
+#meal-search-bar {
+    margin-top: 3rem;
+}
+
+/* end of search bar */
+
+/* the list of recipies */
+
+#popular-recipies #recipie-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-top: 3rem;
+}
+
+/* end of list recipiess */
+
+/* food-item div */
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 350px;
+    width: 250px;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-right: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+/* food image */
+
+.food-item .food-image img {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+/* end of food image */
+
+/* food name */
+
+.food-item .food-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+/* end of food name */
+
+/* buttons for fetching recipie and marking as favourite */
+
+.action-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -50px;
+}
+
+/* button for fetching recipie */
+
+.get-recipie {
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    background-color: crimson;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 62px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+/* end of button for fetching recipie */
+
+/* button for marking as favourite */
+
+.favourite-button {
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    background-color: crimson;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 62px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+/* end of mark facvourite button */
+
+/* link tag */
+
+.get-recipie a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.get-recipie a:hover {
+    color: aliceblue;
+}
+
+/* end of food item div */

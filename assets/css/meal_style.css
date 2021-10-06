@@ -1,0 +1,40 @@
+/* begining of meal-box */
+
+#meal-box {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* end of meal-box */
+
+/* begining of meal-details */
+
+#meal-details {
+    width: 60vw;
+    margin-left: 50px;
+    text-align: justify;
+    margin-top: -1rem;
+}
+
+/* image inside the meal-details div */
+
+#meal-image img {
+    height: 300px;
+    width: 250px;
+    border-radius: 0.5rem;
+}
+
+/* end of image */
+
+/* the meal-name div */
+
+#meal-name {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+/* end of meal-name */
+
+/*end of meal-details */
